@@ -4,6 +4,7 @@ import { User } from "../models/User"
 import { UserDB, UserDBPost } from "../types"
 import { UserBusiness } from "../business/UserBusiness"
 
+
 export class UserController {
     public getUsers = async (req: Request, res: Response) => {
         try {

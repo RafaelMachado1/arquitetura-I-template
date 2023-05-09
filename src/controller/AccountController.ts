@@ -4,6 +4,7 @@ import { Account } from "../models/Account"
 import { AccountDB } from "../types"
 import { AccountBusiness } from "../business/AccountBusiness"
 
+
 export class AccountController {
     public getAccounts = async (req: Request, res: Response) => {
         try {
